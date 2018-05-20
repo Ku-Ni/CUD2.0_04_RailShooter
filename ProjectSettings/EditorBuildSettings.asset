@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/splash.unity
+    guid: df516e3f450fe6a419a7e52b4747e099
+  - enabled: 1
+    path: Assets/Scenes/destroyed_city.unity
+    guid: dab52a771d551ca40930496e8e13757a
