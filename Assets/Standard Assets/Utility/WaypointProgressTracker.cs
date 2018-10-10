@@ -65,7 +65,7 @@ namespace UnityStandardAssets.Utility
 
             Reset();
         }
-
+        
 
         // reset the object to sensible values
         public void Reset()
