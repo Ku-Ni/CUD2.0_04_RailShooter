@@ -7,12 +7,12 @@ public class PlayerCollisionHandler : MonoBehaviour {
 
     private bool isPlayerDead = false;
 
-    void Start()
+    private void Start()
     {
         playerDeathFX.SetActive(false);
     }
 
-    void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other) {
         StartDeathSequence();
     }
 

@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 33531502629606066}
   - component: {fileID: 23308815399011870}
   - component: {fileID: 95644174519549156}
+  - component: {fileID: 114563948673422418}
   m_Layer: 0
   m_Name: Enemy_Turret
   m_TagString: Untagged
@@ -53,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1170456878065788}
   m_LocalRotation: {x: 0.0000000076832425, y: -0.9361714, z: -0.000000020460675, w: 0.351544}
-  m_LocalPosition: {x: 597.67, y: 26.43, z: 468.08163}
+  m_LocalPosition: {x: 597.7, y: 26.47, z: 468.06}
   m_LocalScale: {x: 0.50000036, y: 0.5, z: 0.50000036}
   m_Children:
   - {fileID: 4895065727642194}
@@ -175,3 +176,14 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114563948673422418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170456878065788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3720573bf560d458e2db2752663c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

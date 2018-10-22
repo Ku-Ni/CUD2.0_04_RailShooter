@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
-    void Awake() {
+    private void Awake() {
         int numOfGameManagers = FindObjectsOfType<GameManager>().Length;
         if (numOfGameManagers > 1) {
             Destroy(gameObject);
@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start () {
+    private void Start () {
         if (SceneManager.GetActiveScene().buildIndex == 0) {
             Invoke("LoadNextLevel", 5);
         }
